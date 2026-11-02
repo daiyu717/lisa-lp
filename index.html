@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lisa 🩵 | Official Links & Gallery</title>
+<meta name="description" content="Lisa — Tokyo | Lingerie designer by day, your secret model by night. Official links (Fanvue / Instagram) and mini gallery. AI-generated model, 18+.">
+<meta property="og:title" content="Lisa 🩵 | Official Links">
+<meta property="og:description" content="Lingerie designer by day, your secret model by night. ここより先は、秘密…♡">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/hero.jpg">
+<link rel="icon" href="assets/img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#fff9f3; --paper:#fffdf9; --ink:#43322b; --sub:#8a7163;
+    --milk:#c49a6c; --milk-dark:#a97e52; --pink:#e79fb4; --pink-soft:#fbe9ee;
+    --blue:#a8d4e6; --line:#efdfd2; --shadow:0 10px 30px rgba(169,126,82,.16);
+    --radius:20px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Noto Sans JP",sans-serif;color:var(--ink);background:
+    radial-gradient(900px 480px at 85% -60px, var(--pink-soft), transparent 60%),
+    radial-gradient(700px 420px at -10% 240px, #fdf1de, transparent 55%), var(--cream);
+    -webkit-font-smoothing:antialiased; line-height:1.7;}
+  .wrap{max-width:560px;margin:0 auto;padding:0 18px 56px}
+  /* hero */
+  .hero{margin:0 -18px;position:relative}
+  .hero img{width:100%;height:min(62vh,560px);object-fit:cover;object-position:50% 22%;display:block;
+    border-radius:0 0 28px 28px}
+  .hero::after{content:"";position:absolute;inset:auto 0 0 0;height:120px;border-radius:0 0 28px 28px;
+    background:linear-gradient(transparent,rgba(67,42,32,.38))}
+  .hero-badge{position:absolute;top:14px;left:50%;transform:translateX(-50%);z-index:2;
+    background:rgba(255,253,249,.85);backdrop-filter:blur(6px);color:var(--milk-dark);
+    font-size:11px;letter-spacing:.22em;font-weight:700;padding:5px 14px;border-radius:999px}
+  .profile{text-align:center;margin-top:-52px;position:relative;z-index:3}
+  .avatar{width:104px;height:104px;border-radius:50%;object-fit:cover;border:4px solid var(--paper);
+    box-shadow:var(--shadow)}
+  h1{font-family:"Cormorant Garamond",serif;font-size:42px;font-weight:600;letter-spacing:.04em;margin-top:8px}
+  h1 .heart{font-size:30px;vertical-align:6px}
+  .tagline-en{color:var(--milk-dark);font-weight:700;font-size:14.5px;letter-spacing:.02em}
+  .tagline-jp{color:var(--sub);font-size:13px;margin-top:2px}
+  .chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:12px}
+  .chip{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:4px 12px;
+    font-size:12px;color:var(--sub);font-weight:500}
+  /* sections */
+  section{margin-top:34px}
+  .sec-title{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;
+    letter-spacing:.24em;color:var(--milk-dark);text-transform:uppercase;margin-bottom:14px}
+  .sec-title::after{content:"";flex:1;height:1px;background:var(--line)}
+  /* links */
+  .age-note{background:#fdf0f3;border:1px solid #f3cfd9;color:#a14d68;border-radius:14px;
+    padding:10px 14px;font-size:12.5px;text-align:center;margin-bottom:12px;font-weight:500}
+  .link-card{display:flex;align-items:center;gap:14px;background:var(--paper);border:1px solid var(--line);
+    border-radius:var(--radius);padding:16px 18px;margin-bottom:12px;text-decoration:none;color:var(--ink);
+    box-shadow:0 4px 14px rgba(169,126,82,.07);transition:transform .15s, box-shadow .15s}
+  .link-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+  .link-card .icon{width:46px;height:46px;flex:0 0 46px;border-radius:14px;display:grid;place-items:center;
+    font-size:22px;background:var(--pink-soft)}
+  .link-card .main{flex:1;min-width:0}
+  .link-card .name{font-weight:700;font-size:15.5px}
+  .link-card .desc{font-size:12.5px;color:var(--sub)}
+  .link-card .arrow{color:var(--milk);font-weight:700}
+  .link-card.primary{background:linear-gradient(120deg,#e79fb4,#cfa06f);border:none;color:#fff}
+  .link-card.primary .desc{color:rgba(255,255,255,.88)}
+  .link-card.primary .icon{background:rgba(255,255,255,.25)}
+  .link-card.primary .arrow{color:#fff}
+  .link-card.soon{opacity:.62;cursor:default}
+  .link-card.soon:hover{transform:none;box-shadow:0 4px 14px rgba(169,126,82,.07)}
+  .soon-badge{font-size:10.5px;background:var(--line);color:var(--sub);border-radius:999px;
+    padding:2px 9px;font-weight:700}
+  /* gallery */
+  .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .gallery figure{border-radius:16px;overflow:hidden;position:relative;cursor:pointer;background:#eee}
+  .gallery img{width:100%;height:100%;aspect-ratio:4/5;object-fit:cover;display:block;
+    transition:transform .35s}
+  .gallery figure:hover img{transform:scale(1.05)}
+  .gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:20px 10px 8px;color:#fff;
+    font-size:12px;font-weight:500;background:linear-gradient(transparent,rgba(50,30,20,.55))}
+  /* movie */
+  .movie{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);
+    background:#000;max-width:340px;margin:0 auto}
+  .movie video{width:100%;aspect-ratio:9/16;object-fit:cover;display:block}
+  .play-overlay{position:absolute;inset:0;display:grid;place-items:center;background:rgba(40,20,10,.18);
+    border:none;cursor:pointer;width:100%}
+  .play-overlay span{width:74px;height:74px;border-radius:50%;background:rgba(255,253,249,.92);
+    display:grid;place-items:center;font-size:28px;color:var(--milk-dark);padding-left:5px;
+    box-shadow:0 8px 24px rgba(0,0,0,.3);transition:transform .15s}
+  .play-overlay:hover span{transform:scale(1.08)}
+  .play-overlay.hidden{display:none}
+  .movie-cap{text-align:center;color:var(--sub);font-size:12.5px;margin-top:10px}
+  /* about / secret */
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px;box-shadow:0 4px 14px rgba(169,126,82,.07)}
+  .card p{font-size:14px}
+  .facts{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;margin-top:12px;font-size:13px}
+  .facts dt{color:var(--sub)} .facts dd{font-weight:500}
+  .facts div{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding-bottom:6px}
+  .secret{background:linear-gradient(150deg,#4a3428,#6d4a3a);color:#fdf3ec;border:none}
+  .secret h3{font-size:18px;margin-bottom:8px}
+  .secret p{color:#ecd9cb;font-size:13.5px}
+  .secret ul{list-style:none;margin:12px 0 18px;font-size:14px}
+  .secret li{padding:5px 0;border-bottom:1px dashed rgba(255,255,255,.18)}
+  .secret li::before{content:"🩵 "}
+  .cta{display:block;text-align:center;background:#fff;color:#7c4a35;font-weight:700;text-decoration:none;
+    border-radius:999px;padding:13px;font-size:15px}
+  footer{margin-top:40px;text-align:center;color:var(--sub);font-size:11.5px}
+  footer .ai-note{margin-bottom:6px}
+  /* lightbox */
+  .lightbox{position:fixed;inset:0;background:rgba(30,18,12,.9);display:none;place-items:center;z-index:50}
+  .lightbox.open{display:grid}
+  .lightbox img{max-width:94vw;max-height:88vh;border-radius:14px}
+  .lightbox button{position:absolute;top:16px;right:18px;background:none;border:none;color:#fff;
+    font-size:32px;cursor:pointer;line-height:1}
+  @media(min-width:760px){
+    .gallery{grid-template-columns:repeat(3,1fr)}
+    .wrap{max-width:680px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <span class="hero-badge">OFFICIAL LINKS</span>
+    <img src="assets/img/hero.jpg" alt="Lisa at a café">
+  </header>
+
+  <div class="profile">
+    <img class="avatar" src="assets/img/avatar.jpg" alt="Lisa">
+    <h1>Lisa <span class="heart">🩵</span></h1>
+    <p class="tagline-en">Lingerie designer by day, your secret model by night.</p>
+    <p class="tagline-jp">東京でランジェリーを作る人。夜の顔は、ここだけの秘密…♡</p>
+    <div class="chips">
+      <span class="chip">📍 Tokyo</span>
+      <span class="chip">🎂 22</span>
+      <span class="chip">👙 Lingerie designer</span>
+      <span class="chip">🤖 AI model</span>
+    </div>
+  </div>
+
+  <section id="movie">
+    <h2 class="sec-title">Movie</h2>
+    <div class="movie">
+      <video id="introVideo" poster="assets/img/intro-poster.jpg" preload="none" playsinline controls>
+        <source src="assets/video/intro.mp4" type="video/mp4">
+      </video>
+      <button class="play-overlay" id="playOverlay" aria-label="Play intro movie"><span>▶</span></button>
+    </div>
+    <p class="movie-cap">🎬 Lisaからの自己紹介（音声あり・10秒）</p>
+  </section>
+
+  <section id="links">
+    <h2 class="sec-title">Links</h2>
+    <p class="age-note">🔞 18+ only / 18歳未満の方は閲覧できません<br>Some links below contain adult content.</p>
+
+    <a class="link-card primary" href="https://www.fanvue.com/lisapple_156" target="_blank" rel="noopener">
+      <span class="icon">🩵</span>
+      <span class="main">
+        <span class="name">Fanvue — my secret posts</span><br>
+        <span class="desc">インスタに載せられない投稿はここだけ…♡ 写真・動画・DM</span>
+      </span>
+      <span class="arrow">›</span>
+    </a>
+
+    <a class="link-card" href="https://www.instagram.com/lisapple.156/" target="_blank" rel="noopener">
+      <span class="icon">📷</span>
+      <span class="main">
+        <span class="name">Instagram — everyday Lisa</span><br>
+        <span class="desc">普段のリサはこちら @lisapple.156</span>
+      </span>
+      <span class="arrow">›</span>
+    </a>
+
+    <!-- X: ハンドルを @lisapple_156 に変更できたら、下の div を a タグに差し替えて公開する
+    <a class="link-card" href="https://x.com/lisapple_156" target="_blank" rel="noopener">
+      <span class="icon">𝕏</span>
+      <span class="main">
+        <span class="name">X — daily Lisa &amp; new drops</span><br>
+        <span class="desc">毎日のリサと新着のお知らせ</span>
+      </span>
+      <span class="arrow">›</span>
+    </a>
+    -->
+    <div class="link-card soon">
+      <span class="icon">𝕏</span>
+      <span class="main">
+        <span class="name">X — daily Lisa &amp; new drops</span><br>
+        <span class="desc">毎日のリサと新着のお知らせ</span>
+      </span>
+      <span class="soon-badge">近日公開</span>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2 class="sec-title">Mini Gallery</h2>
+    <div class="gallery">
+      <figure><img src="assets/img/ginkgo.jpg" alt="Lisa at the ginkgo avenue in Jingu Gaien" loading="lazy"><figcaption>🍂 Ginkgo avenue</figcaption></figure>
+      <figure><img src="assets/img/yukata.jpg" alt="Lisa in a navy floral yukata" loading="lazy"><figcaption>🏮 Yukata night</figcaption></figure>
+      <figure><img src="assets/img/yakiimo.jpg" alt="Lisa holding a roasted sweet potato in the park" loading="lazy"><figcaption>🍠 Yakiimo day</figcaption></figure>
+      <figure><img src="assets/img/rain.jpg" alt="Lisa sheltering from the rain in a shopping street" loading="lazy"><figcaption>☔ Rainy day</figcaption></figure>
+      <figure><img src="assets/img/witch.jpg" alt="Lisa in a Halloween witch costume" loading="lazy"><figcaption>🎃 Witch Lisa</figcaption></figure>
+      <figure><img src="assets/img/picnic.jpg" alt="Lisa at a picnic in the park" loading="lazy"><figcaption>🧺 Picnic day</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="sec-title">About Lisa</h2>
+    <div class="card">
+      <p>元ギャル、今は少し大人っぽく。東京で下着のデザインをしながら、モデル活動をしています。自撮りと、新作ランジェリーの試着チェックが日課。甘いものとカフェと、内緒の時間が大好きです。</p>
+      <dl class="facts">
+        <div><dt>Age</dt><dd>22</dd></div>
+        <div><dt>Height</dt><dd>156cm</dd></div>
+        <div><dt>From</dt><dd>Tokyo</dd></div>
+        <div><dt>Job</dt><dd>Lingerie designer</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="secret">
+    <div class="card secret">
+      <h3>ここより先は、秘密… 🤫</h3>
+      <p>Fanvueでは、Instagramに載せられないLisaを毎週お届けしています。</p>
+      <ul>
+        <li>週替わりの写真セット＆ショート動画</li>
+        <li>ランジェリー試着の「続き」</li>
+        <li>購読者さん優先のDMとリクエスト</li>
+      </ul>
+      <a class="cta" href="https://www.fanvue.com/lisapple_156" target="_blank" rel="noopener">Fanvueで会いに来て 🩵</a>
+    </div>
+  </section>
+
+  <footer>
+    <p class="ai-note">Lisa is an AI-generated virtual model. All content features a fictional adult character (18+).<br>
+    このページの人物はAI生成のバーチャルモデルです。登場するキャラクターは成人です。</p>
+    <p>© 2026 Lisa. All rights reserved.</p>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button id="lbClose" aria-label="Close">×</button>
+  <img id="lbImg" src="" alt="">
+</div>
+<script>
+  const introVideo = document.getElementById('introVideo'), playOverlay = document.getElementById('playOverlay');
+  playOverlay.addEventListener('click', () => { introVideo.play(); });
+  introVideo.addEventListener('play', () => playOverlay.classList.add('hidden'));
+  introVideo.addEventListener('pause', () => playOverlay.classList.remove('hidden'));
+  const lb = document.getElementById('lightbox'), lbImg = document.getElementById('lbImg');
+  document.querySelectorAll('.gallery figure').forEach(f => {
+    f.addEventListener('click', () => {
+      const img = f.querySelector('img');
+      lbImg.src = img.src; lbImg.alt = img.alt; lb.classList.add('open');
+    });
+  });
+  const close = () => lb.classList.remove('open');
+  document.getElementById('lbClose').addEventListener('click', close);
+  lb.addEventListener('click', e => { if (e.target === lb) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+</script>
+</body>
+</html>
